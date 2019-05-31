@@ -1,0 +1,251 @@
+header{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 750px;
+    
+   
+}
+
+.navbar-light .navbar-brand{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    
+  
+}
+.dropdown:hover>.dropdown-menu{
+    display:block;
+}
+.navbar-light .navbar-nav .nav-link{
+   color: aliceblue;
+   font-weight: bold;
+   padding: 20px 20px 20px 20px;
+}
+.fa, .fab, .fal, .far, .fas{
+    color: aliceblue;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    cursor: pointer;
+        
+}
+.dropdown-item{
+    background-color: #004e92;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.dropdown-menu{
+    background-color: rgb(00, 00, 100,0.5);
+    border-radius: 20px;
+}
+.hero{
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Concert One', cursive;
+}
+.herop{
+    text-align:center;
+    color:white;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Courgette', cursive;
+
+}
+.container a{
+    text-align: center;
+    margin-left: 40%;
+    
+ 
+}
+.section{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 20px 5px 20px 5px black;
+}
+.company{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    text-align: justify;
+    line-height: 35px;
+    position: relative;
+    
+    
+}
+.sec h2{
+    
+    color: aliceblue;
+}
+.container .fa-laptop-code {
+    font-size: 150px;
+    margin-left: 50px;
+    
+    
+
+}
+.section2{
+    position: relative;
+   
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: 20px 5px 20px 5px black;
+}
+.container .fa-desktop{
+    margin-left: 50px;
+    font-size: 150px;
+}
+
+.container .fa-google-play{
+    font-size: 150px;
+    margin-left: 50px;
+}
+.container .a:hover{
+    border-radius: 20px;
+   
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.company:after{
+    border-bottom: 2px solid white;
+    width: 300px;
+    position: absolute;
+    background-color: aliceblue;
+    content: "";
+    margin-top: 20px;
+    margin-left: 10px;
+   
+    
+}
+.section2 h2::before{
+    border-bottom: 2px solid white;
+    width: 200px;
+    position: absolute;
+    background-color: aliceblue;
+    content: "";
+    margin-top: 50px;
+    margin-right: 50%;
+
+}
+.section3{
+    background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.section3 h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    
+    
+    
+}
+.section3 h2::before{
+    border-bottom: 3px solid white;
+    width: 400px;
+    position: absolute;
+    background-color: aliceblue;
+    content: "";
+    margin-top: 65px;
+ 
+
+}
+.section3 ul{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.section4{
+    background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+line-height: 50px;
+
+}
+.section4 img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px  10px  black;
+    margin: 10px;
+}
+.section4 img:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/* Team style---------------------*/
+.team{
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: 5px 5px 5px 5px black;
+
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.team .member{
+    border:1px solid white;
+    height: auto;
+    margin-top: 10px;
+}
+.section5{
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+text-align: center;
+
+box-shadow: 5px 20px 20px 20px black;
+
+}
+.section5 h2{
+    color: white;
+    font-size: 50px;
+    
+}
+.section5 .img{
+ 
+    margin-left: 20px;
+}
+.call{
+    background-color: orangered;
+    box-shadow: 10px 10px 20px 20px black;
+   
+  
+}
+.call h3{
+    color: white;
+    text-align: center;
+    line-height: 70px;
+  
+}
+.footer{
+    background-color: #000000;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.footer h4{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+
+.vertical-line{
+    height: 300px;
+    width: 1px;
+    background-color: white;
+}
+/* Animation Slider*/
+.hero{
+    animation-delay: 5s;
+}
