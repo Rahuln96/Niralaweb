@@ -17,6 +17,9 @@
     <!-----google font----------->
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <!-----Animate--------->
+    <link rel="stylesheet" href="animate.css/animate.css">
 <style>
 body{
   background: #1e3c72;  /* fallback for old browsers */
@@ -114,12 +117,12 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
    <!-----start services page--------------------->
    <section id="services" class="home-services">
       <div class="container">
-        <h1 class="text-center text-white">Services</h1>
-        <p class="text-center text-white">Hey you Need Website you want to Business Website shopping website grow own business world wide web make own website just contact us for Busness site or any kind of website,order Now.</p>
+        <h1 class="text-center text-white  wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">Services</h1>
+        <p class="text-center text-white wow slideInUp" data-wow-duration="1s" data-wow-delay="2s">Hey you Need Website you want to Business Website shopping website grow own business world wide web make own website just contact us for Busness site or any kind of website,order Now.</p>
       <div class="row">
       
-      <div class="col-sm-4">
-          <div class="service-single text-center wow fadeInDown" data-wow-delay="0.2s">
+      <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="2s">
+          <div class="service-single text-center">
               <div class="box-top">
                   <i class="fas fa-laptop-code"></i>
               <h2>Web Development</h2>
@@ -131,8 +134,8 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
               </div>
       </div>
       
-              <div class="col-sm-4">
-                  <div class="service-single text-center wow fadeInDown" data-wow-delay="0.4s">
+              <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="3s">
+                  <div class="service-single text-center">
                       <div class="box-top">
                           <i class="fas fa-laptop"></i>
                       <h2>Web Design</h2>
@@ -144,8 +147,8 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
                   </div>
               </div>
               
-              <div class="col-sm-4">
-                  <div class="service-single text-center wow fadeInDown" data-wow-delay="0.6s">
+              <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="4s">
+                  <div class="service-single text-center ">
                       <div class="box-top">
                           <i class="fab fa-google-play"></i>
                       <h2>IONIC App Design</h2>
@@ -160,8 +163,8 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
               <!---row 2------------------------>
               <div class="row">
       
-                  <div class="col-sm-4">
-                      <div class="service-single text-center wow fadeInDown" data-wow-delay="0.2s">
+                  <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+                      <div class="service-single text-center">
                           <div class="box-top">
                               <i class="fab fa-facebook"></i>
                           <h2>Social Media Marketing</h2>
@@ -173,8 +176,8 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
                           </div>
                   </div>
                   
-                          <div class="col-sm-4">
-                              <div class="service-single text-center wow fadeInDown" data-wow-delay="0.4s">
+                          <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="2s">
+                              <div class="service-single text-center">
                                   <div class="box-top">
                                       <i class="fab fa-blogger"></i>
                                   <h2>Blog Design</h2>
@@ -186,8 +189,8 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
                               </div>
                           </div>
                           
-                          <div class="col-sm-4">
-                              <div class="service-single text-center wow fadeInDown" data-wow-delay="0.6s">
+                          <div class="col-sm-4  wow zoomIn" data-wow-duration="1s" data-wow-delay="3s">
+                              <div class="service-single text-center">
                                   <div class="box-top">
                                       <i class="fas fa-ad"></i>
                                   <h2>Product Campaign</h2>
@@ -251,5 +254,11 @@ background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, F
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-----------------wow js------------>
+<script src="js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
